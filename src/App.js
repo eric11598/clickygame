@@ -14,13 +14,8 @@ class App extends Component {
   };
 
   selectCharacter = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
     // const friends = this.state.friends.filter(friend => friend.id !== id);
-    for (let i=0; i<5; i++) {
-      setTimeout(function() {
-        console.log(i);
-      }, 100);
-    }
+
     
     let newCharacters = [];
     for (let i = 0; i < 12; i++) {
@@ -32,12 +27,32 @@ class App extends Component {
       newCharacters.push(index);
   }
 
-    console.log(id)
+  let newScore = this.state.score
+
+  if(this.state.clickedArray.includes(id))
+  {
+    newScore = 0
+    this.state.clickedArray.length=0
+  }
+  
+  else
+  {
+    this.state.clickedArray.push(id)
+    newScore++
+  }
+
+  console.log(this.state.clickedArray)
+    
     const newOrder = newCharacters.map(x => characters[x])
 
-    
-    this.setState({ score: this.state.score + 1 });
-    this.setState({ characters:newOrder});
+
+
+
+    //this.setState({ clickedArray: })
+    this.setState({ 
+      score: newScore,
+      characters: newOrder
+     });
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
