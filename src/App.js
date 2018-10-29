@@ -9,6 +9,7 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     characters,
+    message: "",
     score: 0,
     highScore: 0,
     clickedArray: [],
@@ -30,18 +31,21 @@ class App extends Component {
 
   let newScore = this.state.score
   let newHighScore = this.state.highScore
+  let newMessage = this.state.message
 
   if(this.state.clickedArray.includes(id))
   {
     if (newScore>newHighScore)
       newHighScore = newScore
 
+    newMessage = "You guessed incorrectly!"
     this.state.clickedArray.length=0
     newScore = 0
   }
 
   else
   {
+    newMessage = "You guessed correctly!"
     this.state.clickedArray.push(id)
     newScore++
   }
@@ -51,7 +55,8 @@ class App extends Component {
     this.setState({ 
       score: newScore,
       characters: newOrder,
-      highScore: newHighScore
+      highScore: newHighScore,
+      message: newMessage
      });
   };
 
@@ -62,6 +67,7 @@ class App extends Component {
         <Title
         score={this.state.score}
         highScore={this.state.highScore}
+        message={this.state.message}
         />
         
         {this.state.characters.map(friend => (

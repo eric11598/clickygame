@@ -9,6 +9,8 @@
 
 .card-text{
   float: right;
+}
 
-  outline-style: dashed
+.message{
+  float:left
 }
