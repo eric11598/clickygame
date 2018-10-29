@@ -10,6 +10,7 @@ class App extends Component {
   state = {
     characters,
     score: 0,
+    highScore: 0,
     clickedArray: [],
   };
 
@@ -28,30 +29,29 @@ class App extends Component {
   }
 
   let newScore = this.state.score
+  let newHighScore = this.state.highScore
 
   if(this.state.clickedArray.includes(id))
   {
-    newScore = 0
+    if (newScore>newHighScore)
+      newHighScore = newScore
+
     this.state.clickedArray.length=0
+    newScore = 0
   }
-  
+
   else
   {
     this.state.clickedArray.push(id)
     newScore++
   }
-
-  console.log(this.state.clickedArray)
     
     const newOrder = newCharacters.map(x => characters[x])
 
-
-
-
-    //this.setState({ clickedArray: })
     this.setState({ 
       score: newScore,
-      characters: newOrder
+      characters: newOrder,
+      highScore: newHighScore
      });
   };
 
@@ -61,6 +61,7 @@ class App extends Component {
       <Wrapper>
         <Title
         score={this.state.score}
+        highScore={this.state.highScore}
         />
         
         {this.state.characters.map(friend => (
@@ -70,8 +71,6 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
           />
         ))}
       </Wrapper>

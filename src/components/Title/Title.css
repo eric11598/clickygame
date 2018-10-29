@@ -2,7 +2,13 @@
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  text-decoration: underline;
+  float: right;
   color: #2A77AE;
   margin-bottom: 50px;
+}
+
+.card-text{
+  float: right;
+
+  outline-style: dashed
 }

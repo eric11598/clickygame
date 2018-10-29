@@ -2,85 +2,61 @@
   {
     "id": 1,
     "name": "Rosalina",
-    "image": "https://www.mariowiki.com/images/thumb/0/05/Rosalina_-_Mario_Party_10.png/457px-Rosalina_-_Mario_Party_10.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "https://www.mariowiki.com/images/thumb/0/05/Rosalina_-_Mario_Party_10.png/457px-Rosalina_-_Mario_Party_10.png"
   },
   {
     "id": 2,
     "name": "Bowser",
-    "image": "https://www.mariowiki.com/images/thumb/7/7e/Bowser_-_Mario_Party_10.png/548px-Bowser_-_Mario_Party_10.png",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "https://www.mariowiki.com/images/thumb/7/7e/Bowser_-_Mario_Party_10.png/548px-Bowser_-_Mario_Party_10.png"
   },
   {
     "id": 3,
     "name": "Waluigi",
-    "image": "https://www.mariowiki.com/images/thumb/2/27/SuperMarioParty_Waluigi.png/420px-SuperMarioParty_Waluigi.png",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "https://www.mariowiki.com/images/thumb/2/27/SuperMarioParty_Waluigi.png/420px-SuperMarioParty_Waluigi.png"
   },
   {
     "id": 4,
     "name": "Luigi",
-    "image": "https://www.mariowiki.com/images/thumb/b/bb/SuperMarioParty_Luigi.png/354px-SuperMarioParty_Luigi.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "https://www.mariowiki.com/images/thumb/b/bb/SuperMarioParty_Luigi.png/354px-SuperMarioParty_Luigi.png"
   },
   {
     "id": 5,
     "name": "Peach",
-    "image": "https://www.mariowiki.com/images/thumb/b/b7/SuperMarioParty_Peach_2.png/300px-SuperMarioParty_Peach_2.png",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "https://www.mariowiki.com/images/thumb/b/b7/SuperMarioParty_Peach_2.png/300px-SuperMarioParty_Peach_2.png"
   },
   {
     "id": 6,
     "name": "Daisy",
-    "image": "https://www.mariowiki.com/images/thumb/a/a9/SuperMarioParty_Daisy.png/387px-SuperMarioParty_Daisy.png",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "https://www.mariowiki.com/images/thumb/a/a9/SuperMarioParty_Daisy.png/387px-SuperMarioParty_Daisy.png"
   },
   {
     "id": 7,
     "name": "Wario",
-    "image": "https://www.mariowiki.com/images/2/29/SMPWario.png",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "https://www.mariowiki.com/images/2/29/SMPWario.png"
   },
   {
     "id": 8,
     "name": "Mario",
-    "image": "https://www.mariowiki.com/images/thumb/6/64/SMP_Mario_with_Dice.png/600px-SMP_Mario_with_Dice.png",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "https://www.mariowiki.com/images/thumb/6/64/SMP_Mario_with_Dice.png/600px-SMP_Mario_with_Dice.png"
   },
   {
     "id": 9,
     "name": "Yoshi",
-    "image": "https://www.mariowiki.com/images/thumb/4/4d/Yoshi_-_Mario_Party_10.png/392px-Yoshi_-_Mario_Party_10.png",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "https://www.mariowiki.com/images/thumb/4/4d/Yoshi_-_Mario_Party_10.png/392px-Yoshi_-_Mario_Party_10.png"
   },
   {
     "id": 10,
     "name": "Shyguy",
-    "image": "https://www.mariowiki.com/images/thumb/a/a1/Shyguy_MP9.png/493px-Shyguy_MP9.png",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "https://www.mariowiki.com/images/thumb/a/a1/Shyguy_MP9.png/493px-Shyguy_MP9.png"
   },
   {
     "id": 11,
     "name": "KoopaTroopa",
-    "image": "https://www.mariowiki.com/images/thumb/5/5c/SuperMarioParty_KoopaTroopa.png/600px-SuperMarioParty_KoopaTroopa.png",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "https://www.mariowiki.com/images/thumb/5/5c/SuperMarioParty_KoopaTroopa.png/600px-SuperMarioParty_KoopaTroopa.png"
   },
   {
     "id": 12,
     "name": "Boo",
-    "image": "https://www.mariowiki.com/images/thumb/5/54/BooNSMBWii.png/603px-BooNSMBWii.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "https://www.mariowiki.com/images/thumb/5/54/BooNSMBWii.png/603px-BooNSMBWii.png"
   }
 ]
