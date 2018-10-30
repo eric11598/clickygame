@@ -3,8 +3,8 @@ import "./Title.css";
 
 const Title = props =>(
 <h1 className="title">{props.children}
-<p className="message">{props.message}</p>
-<p className="card-text">Score: {props.score} | High Score: {props.highScore}</p>
+<p className="message">Select a character to earn points, but do not click more than once!</p>
+
 
 </h1>);
 

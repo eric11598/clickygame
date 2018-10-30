@@ -3,14 +3,14 @@
   text-align: center;
   font-size: 3rem;
   float: right;
-  color: #2A77AE;
+  color: white;
   margin-bottom: 50px;
 }
 
-.card-text{
-  float: right;
-}
-
 .message{
-  float:left
+  position: relative;
+  top: 40%;
+  background: #6CADDC;
+  float:center
+
 }

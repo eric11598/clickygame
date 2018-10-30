@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
+import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 import characters from "./characters.json";
 import "./App.css";
@@ -14,6 +15,13 @@ class App extends Component {
     highScore: 0,
     clickedArray: [],
   };
+
+  componentDidMount() {
+    this.setState({ 
+      message: "Select a character!", 
+      characters: characters});
+  }
+
 
   selectCharacter = id => {
     // const friends = this.state.friends.filter(friend => friend.id !== id);
@@ -64,19 +72,21 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Navbar score={this.state.score} highScore={this.state.highScore} message={this.state.message}/>
+
         <Title
         score={this.state.score}
         highScore={this.state.highScore}
         message={this.state.message}
         />
         
-        {this.state.characters.map(friend => (
+        {this.state.characters.map(character => (
           <CharacterCard
             selectCharacter={this.selectCharacter}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
+            id={character.id}
+            key={character.id}
+            name={character.name}
+            image={character.image}
           />
         ))}
       </Wrapper>
